@@ -57,11 +57,11 @@ File: Layout CSS
 .overlay .heading {
 	color: red;
 }
-
+.covid-red {color: red;}
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:20px 0;}
 
+.container{padding:20px 0 20px 0; height: auto;}
 /* Content */
 .container .content{}
 
@@ -269,7 +269,7 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#00BCDF;}
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.65);}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#00BCDF; border-color:#00BCDF;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
@@ -336,7 +336,7 @@ hr {border-color: #e6c376;}
 /* Navigation */
 #mainav li a{color:inherit; background-color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#e6c376; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color: rgba(0,0,0,.7); border-color:rgba(0,0,0,.6);}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color: rgba(0,0,0,.8); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#182351; background-color:#00BCDF;}
 #mainav form select{color:#FFFFFF; background-color:#3C4348;}
 
