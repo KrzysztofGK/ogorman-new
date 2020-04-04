@@ -303,7 +303,19 @@ hr {border-color: #e6c376;}
 
 }
 
+html, body { height: 100%;
+	flex:1;
+  display:flex;
+  flex-direction:column;
+}
+.full {
+	flex:1;
+	display:flex;
+	flex-direction:column;
 
+}
+.text-height {font-size: 1.2em; line-height: 1.5em;font-family: sans-serif; }
+.text-height1 {font-size: 1.5em; line-height: 1.5em;font-family: sans-serif;}
 /* Header */
 #header #logo *{color:inherit;}
 #header input, #header button{color:#FFFFFF; background-color:#212427;}
